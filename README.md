@@ -2,5 +2,6 @@
 
 ### Screenshot
 
-![image](https://github.com/RohanRusta21/streamlit-aws/assets/110477025/a55ba1b9-a364-43d8-b1b1-8e95105ec9d5)
+![image](https://github.com/RohanRusta21/streamlit-aws/assets/110477025/bef61ccd-9556-4cc3-991a-86a7fde810e2)
+
 
