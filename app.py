@@ -87,7 +87,7 @@ def main():
     st.title("AWS Resource Viewer")
 
     # Collect user input
-    access_key = st.text_input("AWS Access Key")
+    access_key = st.text_input("AWS Access Key", type="password")
     secret_key = st.text_input("AWS Secret Access Key", type="password")
     region = st.selectbox("Region", list(boto3.Session().get_available_regions("ec2")))
 
