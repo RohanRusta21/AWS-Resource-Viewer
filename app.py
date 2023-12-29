@@ -14,6 +14,7 @@ def display_ec2_instances(session):
                 f"Instance Type: {instance_info['InstanceType']}\n"
                 f"State: {instance_info['State']['Name']}\n{'-'*12}"
             )
+           
     return len(instances), resource_details
 
 def display_s3_buckets(session):
