@@ -71,7 +71,7 @@ if st.button("Get Cost Explorer Data"):
                             st.write(f"{group['Keys'][0]}: {cost_amount:.2f} {group['Metrics']['BlendedCost']['Unit']}")
                     
                     # Display total cost for the day
-                    st.write(f"Total Cost for the Day: {total_cost:.2f} USD")
+                    st.success(f"**Total Cost for the Day:** {total_cost:.2f} USD")
                 else:
                     st.warning("No cost data available for the selected region and time period.")
                 
