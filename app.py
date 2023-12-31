@@ -98,7 +98,7 @@ def main():
 
     # Select which resources to display
     col1, col2, col3 = st.columns(3)
-    show_ec2 = col1.toggle("Show EC2 Instances", value=True)
+    show_ec2 = col1.checkbox("Show EC2 Instances", value=True)
     show_s3 = col2.checkbox("Show S3 Buckets", value=True)
     show_rds = col3.checkbox("Show RDS Instances", value=True)
 
